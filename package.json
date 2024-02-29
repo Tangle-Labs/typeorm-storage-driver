@@ -1,0 +1,20 @@
+{
+  "name": "@tanglelabs/typeorm-storage-driver",
+  "type": "module",
+  "version": "0.1.0",
+  "description": "Typeorm storage driver for @tanglelabs/ssimon",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tanglelabs/ssimon": "^0.5.3",
+    "reflect-metadata": "^0.2.1",
+    "typeorm": "^0.3.20"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.22"
+  }
+}
