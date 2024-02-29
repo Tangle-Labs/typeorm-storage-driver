@@ -5,7 +5,8 @@
   "description": "Typeorm storage driver for @tanglelabs/ssimon",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc; fix-esm-import-path ./dist"
   },
   "author": "",
   "license": "ISC",
@@ -15,6 +16,8 @@
     "typeorm": "^0.3.20"
   },
   "devDependencies": {
-    "@types/node": "^20.11.22"
+    "@types/node": "^20.11.22",
+    "fix-esm-import-path": "^1.5.0",
+    "typescript": "^5.3.3"
   }
 }
