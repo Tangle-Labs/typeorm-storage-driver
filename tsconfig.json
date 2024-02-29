@@ -3,6 +3,7 @@
         "lib": ["es2021"],
         "target": "es2021",
         "module": "es2022",
+        "declaration": true,
         "moduleResolution": "node",
         "allowSyntheticDefaultImports": true,
         "outDir": "./dist",
