@@ -12,4 +12,5 @@ config.gypi
 CVS
 npm-debug.log
 src/tests
+src
 *.stronghold
